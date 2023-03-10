@@ -226,3 +226,11 @@ a{ text-decoration: none; }
 .redeSociales .linkedin{
     background-color: #0077b5;
 }
+
+.redeSociales .dockerhub{
+    background-color:chocolate;
+}
+
+.redeSociales .instagram{
+    background-color: darkkhaki;
+}
