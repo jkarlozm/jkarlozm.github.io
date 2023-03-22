@@ -1,28 +1,20 @@
 # Tarjeta de Presentación.
 
-Esta plantilla nace con la inteción de practicar con las tecnologias de maquetación sin hacer uso de algun framework.
+![Tarjeta presentación v1](img/tpresentacionv1.png)
 
-Aqui va una imagen.
+Plantilla realizada mientras tomaba un curso en YouTube.
 
-Proyecto fue generado con:
+## Tecnologías
 
 1. HTML5
 2. CSS3
 3. JS
 4. NGNIX
 
-Las formas para poder visualizar la interfaz es a traves de los siguientes medios:
+## Échale un vistazo
 
-+ [Dockerhub](https://hub.docker.com/u/jkarlozdhub)
++ [Docker hub](https://hub.docker.com/r/jkarlozdhub/tarjetapresentacion) - Consulta el repositorio y descárgate el contenedor o simplemente ejecuta la siguiente línea en tu Docker.
 
 `docker run -dp 3030:80 --name presentacion jkarlozdhub/tarjetapresentacion:v1`
 
-
-
-
-
-
-
-
-
-
++ [Azure web site](https://tarjetapresentacion.azurewebsites.net/) - también puedes ir directo al sitio alojado en Azure
