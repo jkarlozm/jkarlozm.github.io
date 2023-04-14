@@ -7,7 +7,7 @@
 }
 
 body{
-    background: url(../img/bg.png) fixed;
+    background: url(../img/white.jpg) fixed;
     background-size: cover;
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
 }
@@ -16,7 +16,7 @@ a{ text-decoration: none; }
 
 .contenedor{
     width: 90%;
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
     height: 100%;
     display: flex;
@@ -228,7 +228,7 @@ a{ text-decoration: none; }
 }
 
 .redeSociales .dockerhub{
-    background-color:chocolate;
+    background-color:#5ea0e5;
 }
 
 .redeSociales .instagram{
