@@ -7,44 +7,79 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/8558844652.css" crossorigin="anonymous">
     <title>Karlozm</title>
 </head>
 <body>
     <div class="container">
-        <section class="section">
-          <div class="col s12 valing-wrapper">
-            <img src="img/karloz.jpg" alt="karlozm" class="circle responsive-img">
+        <section class="row section">
+          <div class="col s6 offset-s3">
+            <img src="img/karloz.jpg" alt="karlozm" class="responsive-img circulo">
           </div>          
         </section>
-        <section class="section">
-          <h1 class="center-align">karlozm</h1>
-          <blockquote class="flow-text">¡Hola! Soy Juan Carlos ingeniero en TIC's con una gran pasión por aprender.</blockquote>
+        <section class="row">
+          <div class="col s12">
+            <h1 class="center-align">Juan Carlos</h1>
+            <blockquote class="flow-text">¡Hola! Soy ingeniero en TIC's con una gran pasión por aprender.</blockquote>
+          </div>
         </section>
-        <section class="section">
+        <section class="row section">
           <div class="col s12">
             <ul class="tabs">
-              <li class="tab col s4"><a href="#tab1" class="active">Redes sociales</a></li>
-              <li class="tab col s4"><a href="#tab2">escritorio</a></li>
-              <li class="tab col s4"><a href="#tab3">otros</a></li>
+              <li class="tab col s6"><a href="#tab1" class="active">Redes sociales</a></li>
+              <li class="tab col s6"><a href="#tab2">escritorio</a></li>
+              <!--<li class="tab col s4"><a href="#tab3">otros</a></li>-->
             </ul>
           </div>          
           <div id="tab1" class="col s12">
-            <div>Github</div>
-            <div>Twitter</div>
-            <div>dockerhub</div>
-            <div>Instagram</div>              
+            <div class="row section">
+              <a class="btn-floating pulse"><i class="fa-brands fa-github"></i></a> <a href="https://github.com/xharly" target="_blank" class="flow-text">GitHub</a> 
+            </div>
+            <div class="row section">
+              <a class="btn-floating pulse"><i class="fa-brands fa-twitter"></i></a> <a href="https://twitter.com/Juan_KarloZ" target="_blank" class="flow-text">Twitter</a:href>
+            </div>
+            <div class="row section">
+              <a class="btn-floating pulse"><i class="fa-brands fa-docker"></i></a> <a href="https://hub.docker.com/u/jkarlozdhub" target="_blank" class="flow-text">Docker hub</a>
+            </div>
+            <div class="row section">
+              <a class="btn-floating pulse"><i class="fa-brands fa-instagram"></i></a> <a href="https://www.instagram.com/juan_karlozm/" target="_blank" class="flow-text">Instagram</a>
+            </div>                       
           </div>
-          <div id="tab2" class="col s12">escritorio</div>
-          <div id="tab3" class="col s12">otros</div>          
-        </section>        
+          <div id="tab2" class="col s12">
+            <div class="row">
+              <div class="col s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img class="materialboxed" src="img/EscritorioLinux2.png" alt="Escritorio Linux 1">
+                    <span class="card-title">Escritorio Linux 1</span>
+                  </div>
+                  <div class="card-content">
+                    <p><strong>Tema:</strong> Nordic-Polar-v40 [GTK2/2]</p>
+                    <p><strong>Iconos:</strong> Tela-nord-dark [GTK2/3]</p>
+                    <p><strong>Extensiones:</strong> Dash to Dock, Transparent Top Bar</p>
+                    <p><strong>Wallpaper:</strong></p>
+                    <P><strong>Terminal:</strong> ohmybash/powerline</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--<div id="tab3" class="col s12">otros</div>--> 
+        </section>
     </div>
     <footer class="page-footer">
-      <div class="footer-copyright">
-        Hecho con corazón
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <p class="flow-text center-align">Hecho con <i class="tiny material-icons">favorite</i>, HTML y Materializecss</p>
+          </div>
+        </div>
       </div>
     </footer>    
     <!-- Compiled and minified JavaScript -->
     <script type="text/JavaScript" src="js/materialize.min.js"></script>
     <script type="text/JavaScript" src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/8558844652.js" crossorigin="anonymous"></script>
 </body>
 </html>

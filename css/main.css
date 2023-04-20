@@ -1,15 +1,9 @@
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-html, body{
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    position: relative;
-}
+  main {
+    flex: 1 0 auto;
+  }
