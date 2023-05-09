@@ -1,17 +1,20 @@
-# Tarjeta de Presentación.
+# Tarjeta de Presentación v2.0.
 
-Ocupo esta plantilla para retomar el tema del desarrollo web el cual deje de practicar hace ya un buen tiempo al tomar el trabjo en el caul me desarrollo en estos momentos el cuale esta basado en las TIC's.
+![Tarjeta presentación v1](img/tpresentacionv2.png)
 
-La plantilla la desarrolle hace ya un buen rato como practica en el uso de **HTML, CSS y JS**
+Realice esta plantilla siguiendo el video en YouTube [Tutorial Tarjeta de Presentación / Portafolio con HTML, CSS y JS (Jquery)](https://www.youtube.com/watch?v=kyeuKf9Acwo), he realizado pequeñas modificaciones para actualizar mis datos.
 
-![tarjetapresentacion](/img/TarjetaPresentacion.png "Tarjeta Presentación")
+## Tecnologías
 
-Le puedes echar un vistaso a traves del siguiente link:
+1. HTML5
+2. CSS3
+3. JS
+4. NGNIX
 
-[Mi tarjeta de presentación](xharly.github.io)
+## Échale un vistazo
 
-Esta disponible tambien en un repositorio en docker hub:
++ [Docker hub](https://hub.docker.com/r/jkarlozdhub/tarjetapresentacion) - Consulta el repositorio y descárgate el contenedor o simplemente ejecuta la siguiente línea en tu Docker.
 
-[Docker hub proyecto](https://hub.docker.com/repository/docker/jkarlozdhub/webmenu/general)
+`docker run -dp 3030:80 --name presentacion jkarlozdhub/tarjetapresentacion:v2`
 
-`docker push jkarlozdhub/webmenu:tagname`
++ [Azure web site](https://tarjetapresentacionv2.azurewebsites.net) - también puedes ir directo al sitio alojado en Azure
