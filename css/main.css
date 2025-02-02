@@ -1,9 +1,51 @@
+:root{
+  --color-fondo: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.88));
+  --fuente-principal: Arial, sans-serif;
+}
+
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    background: var(--color-fondo), url('../img/donJC.webp') no-repeat center center / cover;
+    font-family: var(--fuente-principal);
+    height: 100vh;
+    margin: 0;
+    width: 100 vw;
+    color: white;
+    font-size: 16px;
   }
 
-  main {
-    flex: 1 0 auto;
-  }
+h1{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.profile-img{
+  padding: 20px;
+  margin-top: 50px;  
+}
+
+.profile-img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.social-icons a{
+  color: white;
+  font-size: 25px;
+  margin: 5px;  
+}
+
+.btn{  
+  background-color: rgba(0, 0, 0, 0.733);
+  border-radius: 36px;
+  border: 2px solid white;  
+  font-size: 16px;
+  width: 100%;
+  min-height: 65px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.btn i{
+  font-size: 42px;  
+}
