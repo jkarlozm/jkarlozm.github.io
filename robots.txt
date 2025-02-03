@@ -21,4 +21,4 @@ Allow: /img/
 Crawl-delay: 10
 
 # Incluir una URL de sitemap
-#Sitemap: https://jkarlozm.github.io/sitemap.xml
+Sitemap: https://jkarlozm.github.io/sitemap.xml
