@@ -1,0 +1,24 @@
+# Archivo robots.txt para jkarlozm.github.io
+
+# Directivas para todos los bots
+User-agent: *
+Disallow: /source/
+Disallow: /js/
+Disallow: /css/
+Disallow: /.vscode/
+
+# Permitir acceso a directorios públicos
+Allow: /img/
+
+# Directivas para bots específicos
+#User-agent: Googlebot
+#Disallow: /private/google/
+
+#User-agent: Bingbot
+#Disallow: /private/bing/
+
+# Especificar un retraso de crawling
+Crawl-delay: 10
+
+# Incluir una URL de sitemap
+#Sitemap: https://jkarlozm.github.io/sitemap.xml
