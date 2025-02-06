@@ -1,3 +1,7 @@
-#Tarjeta de presentación
+#Plantilla linktree
 README.md
 .git/
+sitemap.xml
+robots.txt
+Dockerfile
+.dockerignore
