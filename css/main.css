@@ -4,14 +4,14 @@
 }
 
 body {
-    background: var(--color-fondo), url('../img/donJC.webp') no-repeat center center / cover;
-    font-family: var(--fuente-principal);
-    height: 100vh;
-    margin: 0;
-    width: 100 vw;
-    color: white;
-    font-size: 16px;
-  }
+  background: var(--color-fondo), url('../img/donJC.webp') no-repeat center center / cover;
+  font-family: var(--fuente-principal);  
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+}
 
 h1{
   font-size: x-large;
@@ -20,7 +20,6 @@ h1{
 
 .profile-img{
   padding: 20px;
-  margin-top: 50px;  
 }
 
 .profile-img img{
@@ -31,7 +30,7 @@ h1{
 
 .social-icons a{
   color: white;
-  font-size: 25px;
+  font-size: 2rem;
   margin: 5px;  
 }
 
@@ -39,10 +38,10 @@ h1{
   background-color: rgba(0, 0, 0, 0.733);
   border-radius: 36px;
   border: 2px solid white;  
-  font-size: 16px;
+  font-size: 1.1rem;
   width: 100%;
   min-height: 65px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 10px;
 }
 
