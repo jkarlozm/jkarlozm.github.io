@@ -1,4 +1,4 @@
-# Archivo robots.txt para jkarlozm.github.io
+# Archivo robots.txt para soydonjc.com
 
 # Directivas para todos los bots
 User-agent: *
@@ -21,4 +21,4 @@ Allow: /img/
 Crawl-delay: 10
 
 # Incluir una URL de sitemap
-Sitemap: https://jkarlozm.github.io/sitemap.xml
+Sitemap: https://soydonjc.com/sitemap.xml
